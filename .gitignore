@@ -1,0 +1,10 @@
+project/plugins/project/build.properties
+target
+project/plugins/target
+project/boot
+project/plugins/boot
+lib_managed
+project/plugins/lib_managed
+.DS_Store
+src_managed
+project/plugins/src_managed

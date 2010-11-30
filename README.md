@@ -14,8 +14,6 @@ all done? now fire up your favorite shell and enter
     sbt update
 	sbt compile
 
-you can also run `sbt idea` to have IntelliJ IDEA project metadata created for you.
- 
 ## what you get
 
 your android sbt project contains 2 subprojects:

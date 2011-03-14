@@ -7,7 +7,7 @@ class Parent(info: ProjectInfo) extends ParentProject(info) {
   override def shouldCheckOutputDirectories = false
   override def updateAction = task { None }
 
-  lazy val main  = project(".", "$app_name$", new MainProject(_))
+  lazy val main  = project(".", "$name$", new MainProject(_))
   lazy val tests = project("tests",  "tests", new TestProject(_), main)
 
   class MainProject(info: ProjectInfo) extends AndroidProject(info) with Defaults with MarketPublish with TypedResources {

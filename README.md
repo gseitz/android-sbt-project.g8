@@ -9,10 +9,10 @@ read g8's [readme](http://github.com/n8han/giter8#readme) for more information
 
 all done? now fire up your favorite shell and enter
 
-	mkdir bestappever && cd bestappever
     g8 gseitz/android-sbt-project
+    cd <name-of-app>
     sbt update
-	sbt compile
+    sbt compile
 
 ## what you get
 
